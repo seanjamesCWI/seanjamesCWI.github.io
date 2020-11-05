@@ -1,0 +1,47 @@
+/*Sean James, 30 October 2020*/
+@font-face {
+    font-family: 'rubikbold_italic';
+    src: url('rubik-bolditalic-webfont.woff2') format('woff2'),
+         url('rubik-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#outerwrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #b8d1eb;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+main{
+    background-color: 10px #C5A98B;
+    
+}
+.floatleft{
+    float:left;
+    margin-right: 3%;
+}
+.floatright{
+    float:right;
+    margin-left: 3%;
+}
+main, footer{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 36pt;
+}
+h2{
+    font-family: 'rubikbold_italic';
+    font-style: italic;
+    font-weight: normal;
+}
+bullets{
+    list-style: url(images/tomato_resize.png) disc out;
+}
