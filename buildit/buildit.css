@@ -1,0 +1,41 @@
+
+body{
+    background-image: linear-gradient(to bottom right, pink, yellow, white ) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    width: 100%;
+}
+
+caption{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+    color: orangered;
+}
+
+.songTable{
+    border: 1px solid black;   
+    background-color: aliceblue;
+    margin-bottom: 3em; 
+    
+}
+td{
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+th{
+    border: 1px solid black;
+    background-color: blue;
+    color: cornsilk;
+}
+.restaurantTable{
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+tfoot{
+    text-align: center;
+    
+}
