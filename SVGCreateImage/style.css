@@ -1,0 +1,11 @@
+.shape1{
+    transition: transform 1.5s;
+}
+svg:hover .layer{
+    fill: red;
+    transform: scale(.8)
+}
+svg:hover .shape2{
+    fill: greenyellow;
+    transform: scale(.8)
+}
