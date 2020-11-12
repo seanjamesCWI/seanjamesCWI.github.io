@@ -1,0 +1,38 @@
+table{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'hackbold';
+}
+
+caption{
+    
+    font-family: 'hackbold';
+    font-weight: bolder;
+    font-size: 30px;
+    color: ivory;
+}
+
+.workTable, .schoolTable{  
+    border-collapse: separate;
+    height: 100px;
+}
+
+
+
+td{
+    border: 1px solid black;
+    background-color:lightgray;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+    background-color:black;
+    color: aliceblue;
+}
+
+tfoot{
+    text-align: center;
+    
+}
