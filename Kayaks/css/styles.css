@@ -1,43 +1,38 @@
-.bar { 
-    background-color: #152420;
-    
- }
-main { 
-    background-image: url(../images/heroback.jpg);
+body{
+    background-image: linear-gradient(blue, white);
     background-repeat: no-repeat;
-    background-position: right;
+}
+nav{
+    background-color: #152420;
+}
+nav ul{
+    list-style-type: none;
 }
 nav ul li{
-    display: inline;
-    list-style: none;
+    display: block;
+}
+h1{
+    display: none;
+}
+
+@media only screen and (min-width: 641px){
+    body{
+        background: transparent;
+    }
+    nav ul li{
+        display: inline;
+    }
+    h1{
+        display: block;
+    }
+    main { 
+        background-image: url(../images/heroback.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
     
 }
 
 
-@media only screen and (max-width: 641px){
-    html{
-        background-image: linear-gradient(blue, white);
-        background-repeat: no-repeat;
-    }
-    nav ul li{
-        display: block;
-    }
-    h1{
-        display: none;
-    }
-    main{
-        background: transparent;
-    }
-}
-@media only screen and(min-width: 642px){
-    main{
-        background: transparent;
-    }
-    h1{
-        display: initial;
-    }
-}
-@media only screen and (min-width: 1024px){
 
-}
 
