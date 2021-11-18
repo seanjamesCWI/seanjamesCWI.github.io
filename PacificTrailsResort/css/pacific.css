@@ -65,6 +65,7 @@ footer
     font-style: bold;
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', serif;
+	background: linear-gradient(to bottom, white, #90C7E3)
 	
 }
 	   
@@ -83,3 +84,28 @@ dt
 { 
 	font-size: 90%; 
 }
+/*=============Mobile================*/
+@media screen and (max-width: 640px){
+	nav ul li{
+		display: block;
+	}
+	h2{
+		display: none;
+	}
+	img{
+		display: none;
+	}	
+}
+/*==============Tablet==============*/
+@media screen and (min-width: 641px) {
+	nav ul li{
+		display: inline;
+	}
+	h2{
+		display: block;
+	}
+	img{
+		display: block;
+	}
+}
+	
